@@ -4,7 +4,8 @@ Saddl API
 Installation
 ====
 To make this project work you have to install [vagrant](http://vagrantup.com) and VirtualBox.
-when you have those installed execute the following commands
+when you have those installed execute the following commands:
+
     $ vagrant up
     $ vagrant ssh
     //when asked for a password enter 'vagrant'
