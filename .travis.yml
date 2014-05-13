@@ -13,7 +13,10 @@ deploy:
   provider: heroku
   api_key:
     secure: OPmFMZ47vcFYtv+5T0M7VRPFq0wzcwY+StBLc+psmUxPyn48BoxLpItxszudssS53f4ukoFrNNbjIhTQE07hjNQzKbga1vr7fQg+F+jRr5R/lY9GzMwIt4ROm9bkFzkPA0IxE+TxNKxxe3dFx+McT5x02zHVk0jruEbhEcHWY0Y=
-  app: saddl-api
+  app: 
+    master: saddl-api
+    develop: development-saddl-api
   skip_cleanup: true
   on:
     repo: EDeijl/Saddl-API
+
