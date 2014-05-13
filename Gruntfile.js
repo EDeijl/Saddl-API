@@ -475,6 +475,16 @@ module.exports = function (grunt) {
         'concurrent:debug'
       ]);
     }
+    if (target === 'vagrant') {
+      return grunt.task.run([
+        'clean:server',
+        'bower-install',
+        'concurrent:server',
+        'autoprefixer',
+        'express:dev',
+        'watch'
+        ]);
+    }
 
     grunt.task.run([
       'clean:server',
@@ -542,3 +552,4 @@ module.exports = function (grunt) {
     'build'
   ]);
 };
+				hostname: '0.0.0.0'
