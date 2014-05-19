@@ -1,4 +1,4 @@
-Saddl API
+Saddl API [![Build Status](https://travis-ci.org/EDeijl/Saddl-API.svg?branch=master)](https://travis-ci.org/EDeijl/Saddl-API)
 ====
 
 Installation
