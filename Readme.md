@@ -9,7 +9,9 @@ when you have those installed execute the following commands:
     $ vagrant up
     $ vagrant ssh
     //when asked for a password enter 'vagrant'
+    $ cd /vagrant
     $ npm install
+    $ bower install
     $ grunt serve:vagrant
 
 the api will be accessible at `localhost:9000`
