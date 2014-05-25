@@ -16,6 +16,7 @@
     "mongoose": "~3.8.8",
     "morgan": "~1.0.0",
     "oauthorize": "^0.1.0",
+    "connect-mongo": "mrzepinski/connect-mongo",
     "passport": "~0.2.0",
     "passport-http-bearer": "^1.0.1",
     "passport-http-oauth": "^0.1.3",
