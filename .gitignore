@@ -14,3 +14,4 @@ dist
 .node-gyp
 .npm
 tmp
+npm-debug.log
