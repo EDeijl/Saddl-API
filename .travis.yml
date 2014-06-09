@@ -19,4 +19,7 @@ deploy:
   skip_cleanup: true
   on:
     repo: EDeijl/Saddl-API
-
+notifications:
+  email:
+    on_success: [change]
+    on_failure: [change]

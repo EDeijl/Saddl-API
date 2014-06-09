@@ -475,6 +475,11 @@ module.exports = function (grunt) {
         'concurrent:debug'
       ]);
     }
+    if(target === 'prod-debug'){
+      return grunt.task.run([
+        'build', 'express:dev', 'open', 'express-keepalive'
+      ]);
+    }
     if (target === 'vagrant') {
       return grunt.task.run([
         'clean:server',
