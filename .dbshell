@@ -1,6 +1,0 @@
-show dbs
-help
-use fullstack-dev
-show collections
-db.packages()
-db.packages.find()
