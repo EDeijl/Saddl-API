@@ -10,6 +10,7 @@ dist
 .bash_history
 .sudo_as_admin_successful
 .cache
+.dbshell
 .config
 .node-gyp
 .npm
