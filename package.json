@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
+    "repeat": "0.0.6",
     "grunt-autoprefixer": "~0.4.0",
     "grunt-bower-install": "~0.7.0",
     "grunt-concurrent": "~0.4.1",
